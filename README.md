@@ -2,8 +2,8 @@
 ### Data Preprocessing
 * Removed unnecessary features and condensed the number of feature unique values
 * Handled missing data via imputation (based on similar case) and deletion
-* Feature engineering times, collision direction, and environment lighting condition
-* One hot encoding categoricals like week day
+* Feature engineering times, collision direction, environment lighting condition, etc.
+* One hot encoding categoricals like week day and numeralized injury severity labels to allow for scaling
 
 ## Learning Models Results with 5-fold Cross-Validation
 Heavily unbalanced data lead to dropping all the "no-injury" datapoints in one half of the data. All models further use this balanced data 
