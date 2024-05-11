@@ -11,7 +11,8 @@ Heavily unbalanced data lead to dropping all the "no-injury" datapoints in one h
 * (50% accuracy) Decision Tree with PCA data reduced the curse of dimensionality
 * (57% accuracy) SVM
   * Precision improved across the board compared to DT but recall for class 3 was poor, leading to lower f1 score 
-* (57% accuracy) Tuned SVM
+* (57%) Tuned SVM
+* (63%) Neural Network
 * (78%) SMOTE used to improve recall and support count of classes 2 and 3
 * (80%) Random Forest Tree
-* Ensembling via Gradient Boosting and Bagging ran for over 48% hours and did not finish
+* Neural Net and Ensembling via Gradient Boosting and Bagging ran for over 48 hours and did not finish
