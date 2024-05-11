@@ -6,7 +6,7 @@
 * One hot encoding categoricals like week day and numeralized injury severity labels to allow for scaling
 
 ## Learning Models Results with 5-fold Cross-Validation
-Heavily unbalanced data lead to dropping all the "no-injury" datapoints in one half of the data. All models further use this balanced data 
+Heavily unbalanced data lead to dropping all the "no-injury" datapoints in one half of the data (140k out of 180k datapoints were labeled no-injury. All models further use this balanced data and saw improvements in accuracy
 * (78% accuracy) Decision Tree with one-hot encoded categoricals
 * (50% accuracy) Decision Tree with PCA data reduced the curse of dimensionality
 * (57% accuracy) SVM
