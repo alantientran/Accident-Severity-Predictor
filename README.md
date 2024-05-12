@@ -15,4 +15,4 @@ Heavily unbalanced data lead to dropping all the "no-injury" datapoints in one h
 * (63%) Neural Network
 * (78%) SMOTE used to improve recall and support count of classes 2 and 3
 * (80%) Random Forest Tree
-* Neural Net and Ensembling via Gradient Boosting and Bagging ran for over 48 hours and did not finish
+* Ensembling via Gradient Boosting and Bagging ran for over 48 hours and did not finish
